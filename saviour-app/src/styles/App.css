@@ -1,0 +1,54 @@
+.herosection-wrapper {
+    background-image: url("../assets/headers-img.png");
+    width: 100%;
+    height: 588px;
+    position: absolute;
+    top: 0px;
+}
+
+.testinomial-wrappper {
+    width: 100%;
+    height: auto;
+    background-color: var(--black-color);
+}
+
+
+.participant-wrapper {
+    width: 100%;
+    height: auto;
+    background-image: url("../assets/Rectangle\ 19.png");
+    background-size: cover;
+    position: relative;
+}
+
+.wrapper-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 25, 25, 1);
+    z-index: -1;
+}
+
+
+.tokennomics-wrapper {
+    width: 100%;
+    height: auto;
+    background-image: url("../assets/Rectangle\ 20.png");
+    margin: 0;
+    position: relative;
+}
+
+.road-map-wrapper {
+    width: 100%;
+    height: auto;
+    background-image: url("../assets/Rectangle\ 21.png");
+    position: relative;
+}
+
+footer {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(180deg, #030405 0%, #120101 100%);
+}

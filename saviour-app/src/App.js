@@ -1,23 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from "./components/Footer";
+import HeroSection from "./components/HeroSection";
+import Navbar from "./components/Navbar";
+import Participant from "./components/Participant";
+import RoadMap from "./components/RoadMap";
+import Testinomial from "./components/Testinomial";
+import Tokennomics from "./components/Tokennomics";
+import "./styles/App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Navbar />
+
+      {/*Hero Section  */}
+      <section className="herosection-wrapper">
+        <HeroSection />
+      </section>
+
+
+      {/* Testinomial section */}
+      <section className="testinomial-wrappper">
+        <Testinomial />
+      </section>
+
+      {/* Participant */}
+      <section className="participant-wrapper">
+        <div className="wrapper-overlay" ></div>
+        <Participant />
+      </section>
+
+      {/* Tokennomics */}
+      <section className="tokennomics-wrapper">
+        <div className="wrapper-overlay"></div>
+        <Tokennomics />
+      </section>
+
+      {/* Roadmap */}
+      <section className="road-map-wrapper">
+        <div className="wrapper-overlay"></div>
+        <RoadMap />
+      </section>
+
+      <footer>
+        <Footer />
+      </footer>
+
+
+
     </div>
   );
 }
