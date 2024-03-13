@@ -11,10 +11,10 @@ function App() {
   return (
     <div className="App">
 
-      <Navbar />
 
       {/*Hero Section  */}
       <section className="herosection-wrapper">
+        <Navbar />
         <HeroSection />
       </section>
 
@@ -41,6 +41,9 @@ function App() {
         <div className="wrapper-overlay"></div>
         <RoadMap />
       </section>
+
+
+      {/* Footer */}
 
       <footer>
         <Footer />

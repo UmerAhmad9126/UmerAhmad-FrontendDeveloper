@@ -1,11 +1,11 @@
-nav {
+.desk-navbar {
     width: 90%;
     display: flex;
     margin: auto;
     justify-content: space-between;
     position: sticky;
     top: 20px;
-    z-index: 10;
+    z-index: 1000;
 }
 
 .logo {
@@ -67,3 +67,71 @@ nav {
     display: flex;
     align-items: center;
 }
+
+
+.mobile-navbar {
+    display: none;
+}
+
+/* Styles for mobile version */
+
+@media (max-width:768px) {
+    .mobile-navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: sticky;
+        top: 20px;
+        overflow: hidden;
+        z-index: 1000;
+    }
+
+    .desk-navbar {
+        display: none;
+    }
+
+    .logo-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tab-menu {
+        width: 25px;
+        height: 25px;
+        top: 40px;
+        left: 21px;
+    }
+
+    .logo p {
+        font-family: ZCOOL KuaiLe;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .btn-container {
+        width: 100.26px;
+        height: 30px;
+        padding: 7.89px, 12.63px, 8.11px, 12.63px;
+        border-radius: 12.19px;
+        gap: 4.88px;
+    }
+
+    .mobile-btn {
+        font-size: 9px;
+        font-weight: 600;
+        line-height: 14px;
+        letter-spacing: 0em;
+        width: 100.26px;
+        height: 30px;
+        padding: 7.89px, 12.63px, 8.11px, 12.63px;
+        border-radius: 12.19px;
+        gap: 4.88px;
+        color: var(--white-color);
+        background: linear-gradient(93.73deg, #ED0137 20.19%, #F05733 88.3%);
+        border: none;
+    }
+}
+

@@ -3,18 +3,9 @@
     flex-direction: column;
     width: 90%;
     margin: auto;
-
-    /* position: relative; */
 }
 
-/* .wrapper-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(2, 2, 2, 0.5);
-} */
+
 
 .display-container {
     display: flex;
@@ -89,7 +80,6 @@
 .fieldset {
     border: 2px solid orangered;
     border-radius: 15px;
-    width: 400px;
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
@@ -104,7 +94,6 @@
 
     background-color: #ED0137;
     color: white;
-
     font-family: Shojumaru;
     font-size: 18px;
     font-weight: 400;
@@ -127,7 +116,6 @@
     font-family: ZCOOL KuaiLe;
     font-size: 20px;
     font-weight: 400;
-    /* line-height: 20px; */
     letter-spacing: 0em;
     text-align: left;
     width: 200px;
@@ -141,7 +129,6 @@
     font-family: ZCOOL KuaiLe;
     font-size: 20px;
     font-weight: 400;
-    /* line-height: 20px; */
     letter-spacing: 0em;
     text-align: left;
     color: #da281c;
@@ -236,6 +223,95 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-
     margin: 30px;
+}
+
+@media (max-width:768px) {
+    .display-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin: 0px;
+    }
+
+    .price {
+        color: #ED0137;
+    }
+
+    .ido-event {
+        max-width: 650px;
+        margin: auto;
+        font-size: 16px;
+    }
+
+
+    .event-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .event-2 {
+        width: 500px;
+    }
+
+}
+
+@media (max-width:320px) {
+
+    .event {
+        font-size: 32px;
+    }
+
+    .ido-event {
+        font-size: 15px;
+        width: 250px;
+        margin: auto;
+    }
+
+    .token {
+        font-size: 12px;
+        width: 150px;
+    }
+
+    .token-child {
+        font-size: 12px;
+    }
+
+    .token-container {
+        display: flex;
+        gap: 5px;
+    }
+
+    .referral {
+        font-size: 13px;
+        width: 60%;
+        margin: auto;
+    }
+
+    .referal-link {
+        font-family: ZCOOL KuaiLe;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 5px auto;
+        color: aliceblue;
+    }
+
+    .fieldset {
+
+        width: 250px;
+
+
+    }
+
+    .legend {
+        font-size: 12px;
+    }
+
 }

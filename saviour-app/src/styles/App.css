@@ -1,9 +1,9 @@
 .herosection-wrapper {
     background-image: url("../assets/headers-img.png");
     width: 100%;
-    height: 588px;
-    position: absolute;
-    top: 0px;
+    height: auto;
+    background-size: cover;
+    /* background-position: center; */
 }
 
 .testinomial-wrappper {
@@ -45,10 +45,11 @@
     height: auto;
     background-image: url("../assets/Rectangle\ 21.png");
     position: relative;
+    background-size: fit;
 }
 
 footer {
     width: 100%;
-    height: 500px;
+    height: auto;
     background: linear-gradient(180deg, #030405 0%, #120101 100%);
 }

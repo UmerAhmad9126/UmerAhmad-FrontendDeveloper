@@ -13,7 +13,7 @@ const Footer = () => {
         <div className='footer-container'>
 
             <div>
-                <img src={FooterImg} alt="FooterImg" />
+                <img src={FooterImg} alt="FooterImg" className='footer-img' />
             </div>
 
             <div className='sitemap'>

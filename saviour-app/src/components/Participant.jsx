@@ -75,7 +75,7 @@ const Participant = () => {
                     <div className='price'>Sold - $34,56,56,764/$50,00,00,000</div>
                     <div className='price'>Raised - $34,56,56,764/$40,00,00,000</div>
 
-                    <div className='price button'>Enter the amount (BNB)</div>
+                    <div className='price button '>Enter the amount (BNB)</div>
                     <div className='price button'>Minimum Quantity to Buy</div>
                     <div className='price button'>Maximum Quantity of Tokens</div>
 
